@@ -1,6 +1,6 @@
 # How to Install Pyenv on Ubuntu 18.04
 
-[ref](https://www.liquidweb.com/kb/how-to-install-pyenv-on-ubuntu-18-04/)
+[Copyed from Liquidweb](https://www.liquidweb.com/kb/how-to-install-pyenv-on-ubuntu-18-04/)
 
 ## Step #1: Update and Install Dependencies
 It’s always a good idea to start off any installation process by updating system packages:
