@@ -126,3 +126,28 @@ Some useful pyenv commands are as follows.
 The full documentation for pyenv can be found at GitHub.
 
 There you have it! With pyenv installed, you’re off and running with more granular control of your Python environment!
+
+--- 
+# Install pyenv-virtualenv
+
+[ref](https://github.com/pyenv/pyenv-virtualenv)
+
+```
+    git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+
+```
+To enable auto-activation, please copy this command to your terminal:
+
+```
+    echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+```
+
+Restart your shell to enable pyenv-virtualenv
+```
+    exec "$SHELL"
+```
+
+# Create virtual environment
+```
+    pyenv virtualenv 3.6.12 airflow-etailz
+```
